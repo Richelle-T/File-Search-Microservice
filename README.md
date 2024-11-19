@@ -5,7 +5,7 @@
 Install the Python package for ZeroMQ: `pip install pyzmq`
 
 ### Step 2
-Set up the context and socket in your main program 
+Set up the context and socket in your main program \n
 `context = zmq.Context()
 socket = context.socket(zmq.REQ)
 socket.connect("tcp://localhost:5555")`
