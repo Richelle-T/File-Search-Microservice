@@ -14,7 +14,7 @@ If you need to change the port number `5555`, make sure you also change the port
 Line 52: `socket.bind("tcp://*:5555")`
 
 ### Step 3: Initialize folder_path and keyword variables
-Set `folder_path` to the path of the folder containing text files you wish to search through.
+Set `folder_path` to the path of the folder containing text files you wish to search through.  
 Set `keyword` to the word you're searching for.
 
 `folder_path = r"YOUR FOLDER PATH"`  
