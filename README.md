@@ -1,7 +1,7 @@
-# File-Search-Microservice
+# Communication Contract
 
-# A. REQUEST Data
+## A. REQUEST Data
 
-# B. RECEIVE Data
+## B. RECEIVE Data
 
-# C. UML Sequence Diagram
+## C. UML Sequence Diagram
