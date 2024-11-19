@@ -47,5 +47,5 @@ An example of how you could display the results:
 
 
 ## C. UML Sequence Diagram
-![UML Sequence Diagram](UML Diagram.png)
+![UML Diagram](UML%20Diagram.png)
 
