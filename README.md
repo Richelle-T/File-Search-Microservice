@@ -11,7 +11,7 @@
 `socket.connect("tcp://localhost:5555")`
 
 If you need to change the port number `5555`, make sure you also change the port number in search_keywords.py on line 52 to match the number used in your main program.  
-Line 52: `socket.bind("tcp://*:5555")`
+`Line 52: socket.bind("tcp://*:5555")`
 
 ### Step 3: Initialize folder_path and keyword variables
 Set `folder_path` to the path of the folder containing text files you wish to search through.  
