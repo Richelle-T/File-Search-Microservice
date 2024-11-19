@@ -23,10 +23,10 @@ Set `keyword` to the word you're searching for.
 Please make sure to include the r (for "raw string") in front of the folder path's string. Otherwise, Python might interpret any backslashes \ as escape sequences. 
 
 ### Step 4: Send request containing folder_path and keyword
-`message = {  
-   "folder_path": folder_path,  
-   "keyword": keyword  
-}`  
+`message = {`  
+`  "folder_path": folder_path,`  
+`   "keyword": keyword`  
+`}`  
 
 `socket.send_json(message)`
 
