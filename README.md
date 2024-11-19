@@ -37,7 +37,7 @@ Send the message
 `result = socket.recv_json()`
 
 The result is a list of dictionaries. Each dictionary has a key-value pair for file_name and occurrences.  
-`file_name` is a string for the file's name.  
+`file_name` is a string for the text file's name.  
 `occurrences` is an int representing the number of times the keyword appeared in the file.
 
 An example of how you could display the results:  
