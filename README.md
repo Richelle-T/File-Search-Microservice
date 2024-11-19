@@ -1,7 +1,15 @@
-# Communication Contract
+## Communication Contract 
 
-## A. REQUEST Data
+# A. REQUEST Data
+## Step 1: Set up ZeroMQ
 
-## B. RECEIVE Data
+context = zmq.Context()
+socket = context.socket(zmq.REQ)
+socket.connect("tcp://localhost:5555")
 
-## C. UML Sequence Diagram
+
+
+
+# B. RECEIVE Data
+
+# C. UML Sequence Diagram
